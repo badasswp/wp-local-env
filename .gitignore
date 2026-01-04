@@ -1,0 +1,11 @@
+# Dependency directories
+node_modules
+/vendor
+/plugins
+/themes
+
+# Ignore Auto-Generated Files #
+###############################
+composer.lock
+package-lock.json
+yarn.lock
