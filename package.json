@@ -1,0 +1,23 @@
+{
+  "name": "wp-local-env",
+  "version": "1.0.0",
+  "description": "WP Local Environment",
+  "author": "badasswp",
+  "license": "GPL-2.0-or-later",
+  "engines": {
+    "node": "20",
+    "npm": "10",
+    "yarn": "1"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^10.17.0"
+  },
+  "scripts": {
+    "wp-env": "wp-env",
+    "start": "yarn wp-env start",
+    "stop": "yarn wp-env stop",
+    "destroy": "yarn wp-env destroy",
+    "rebuild": "yarn stop && yarn destroy && yarn start",
+    "setup": "yarn install && composer install && yarn start"
+  }
+}
