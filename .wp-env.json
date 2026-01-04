@@ -1,0 +1,29 @@
+{
+  "core": "WordPress/WordPress#6.9",
+  "phpVersion": "8.2",
+  "port": 8080,
+  "testsPort": 8081,
+  "config": {
+    "WP_SITEURL": "http://appworld.localhost",
+    "WP_HOME": "http://appworld.localhost"
+  },
+  "lifecycleScripts": {
+    "afterStart": "./bin/setup.sh"
+  },
+  "plugins": [
+    "./plugins/ai-plus-block-editor",
+    "./plugins/image-converter-webp",
+    "./plugins/convert-blocks-to-json",
+    "./plugins/sql-to-cpt",
+    "./plugins/make-post-dirty",
+    "./plugins/manage-block-template",
+    "./plugins/addon-for-post-meta-translation-using-deepl",
+    "./plugins/display-site-notification-bar",
+    "./plugins/ping-me-on-slack",
+    "./plugins/create-product-on-image-upload",
+    "./plugins/watermark-my-images",
+    "./plugins/pending-order-bot",
+    "./plugins/query-monitor",
+    "./plugins/user-switching"
+  ]
+}
