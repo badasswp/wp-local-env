@@ -1,0 +1,101 @@
+{
+  "name": "badasswp/wp-local-env",
+  "description": "Local development environment for our plugins.",
+  "license": "proprietary",
+  "type": "project",
+  "authors": [
+    {
+      "name": "badasswp",
+      "email": "badasswpdev@gmail.com"
+    }
+  ],
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  },
+  "require": {
+    "composer/installers": "^1.6",
+    "badasswp/ai-plus-block-editor": "*",
+    "badasswp/image-converter-webp": "*",
+    "badasswp/convert-blocks-to-json": "*",
+    "badasswp/sql-to-cpt": "*",
+    "badasswp/make-post-dirty": "*",
+    "badasswp/manage-block-template": "*",
+    "badasswp/addon-for-post-meta-translation-using-deepl": "*",
+    "badasswp/display-site-notification-bar": "*",
+    "badasswp/ping-me-on-slack": "*",
+    "badasswp/create-product-on-image-upload": "*",
+    "badasswp/watermark-my-images": "*",
+    "badasswp/pending-order-bot": "*"
+  },
+  "require-dev": {
+    "wpackagist-plugin/query-monitor": "^3.17.0",
+    "wpackagist-plugin/user-switching": "^1.9.1"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "composer",
+      "url": "https://packagist.org"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:badasswp/ai-plus-block-editor.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:badasswp/image-converter-webp.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:badasswp/convert-blocks-to-json.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:badasswp/sql-to-cpt.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:badasswp/make-post-dirty.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:badasswp/manage-block-template.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:badasswp/addon-for-post-meta-translation-using-deepl.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:badasswp/display-site-notification-bar.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:badasswp/ping-me-on-slack.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:badasswp/create-product-on-image-upload.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:badasswp/watermark-my-images.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:badasswp/pending-order-bot.git"
+    }
+  ],
+  "extra": {
+    "installer-paths": {
+      "plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ]
+    }
+  }
+}
