@@ -18,11 +18,14 @@
     "composer/installers": "^1.6",
     "badasswp/ai-plus-block-editor": "*",
     "badasswp/image-converter-webp": "*",
+    "badasswp/search-and-replace": "*",
     "badasswp/convert-blocks-to-json": "*",
+    "badasswp/trash-post-in-block-editor": "*",
     "badasswp/sql-to-cpt": "*",
     "badasswp/make-post-dirty": "*",
     "badasswp/manage-block-template": "*",
     "badasswp/addon-for-post-meta-translation-using-deepl": "*",
+    "badasswp/redirect-duplicate-posts": "*",
     "badasswp/display-site-notification-bar": "*",
     "badasswp/ping-me-on-slack": "*",
     "badasswp/create-product-on-image-upload": "*",
@@ -52,7 +55,15 @@
     },
     {
       "type": "git",
+      "url": "git@github.com:badasswp/search-and-replace.git"
+    },
+    {
+      "type": "git",
       "url": "git@github.com:badasswp/convert-blocks-to-json.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:badasswp/trash-post-in-block-editor.git"
     },
     {
       "type": "git",
@@ -69,6 +80,10 @@
     {
       "type": "git",
       "url": "git@github.com:badasswp/addon-for-post-meta-translation-using-deepl.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:badasswp/redirect-duplicate-posts.git"
     },
     {
       "type": "git",
