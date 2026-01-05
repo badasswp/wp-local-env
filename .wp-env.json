@@ -13,7 +13,7 @@
   "plugins": [
     "./plugins/ai-plus-block-editor",
     "./plugins/image-converter-webp",
-    "./plugins/search-replace-for-block-editor",
+    "./plugins/search-and-replace",
     "./plugins/convert-blocks-to-json",
     "./plugins/trash-post-in-block-editor",
     "./plugins/sql-to-cpt",
