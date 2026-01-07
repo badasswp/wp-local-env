@@ -13,6 +13,8 @@
     "stop": "yarn wp-env stop",
     "destroy": "yarn wp-env destroy",
     "rebuild": "yarn stop && yarn destroy && yarn start",
-    "setup": "yarn install && composer install && yarn start"
+    "setup": "yarn install && composer install && yarn start",
+    "docker": "yarn install && composer install && docker compose up -d",
+    "docker-rebuild": "docker compose down && docker compose up -d"
   }
 }
