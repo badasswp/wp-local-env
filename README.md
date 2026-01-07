@@ -60,7 +60,7 @@ We use Docker for managing our WP instances easily. To get this, please visit th
 https://docker.com/get-started
 ```
 
-## Setting up your Local Development Environment
+## Setting up your Local Development Environment using .wp-env
 
 To setup, please run the following command:
 
@@ -96,4 +96,30 @@ Now rebuild the WP instance by running the following command:
 
 ```bash
 yarn rebuild
+```
+
+## Setting up your Local Development Environment using Docker
+
+If you use Windows, you might have challenges setting up your repo using `wp-env`. To workaround this, you can use the docker configuration to setup your local environment.
+
+To setup, please run the following command:
+
+```bash
+yarn docker
+```
+
+This should spin up a Wordpress development site at:
+
+```bash
+http://localhost:8080
+```
+
+### WordPress
+
+Please, proceed to the `docker-compose.yml` file, change the `image` version to the new version you'd like to install. For example, to install WordPress 6.4, change the line to `image: wordpress:6.4`.
+
+Now rebuild the WP instance by running the following command:
+
+```bash
+yarn docker-rebuild
 ```
