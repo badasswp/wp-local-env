@@ -1,6 +1,6 @@
 services:
   wordpress:
-    image: wordpress:latest
+    image: wordpress:6.9
     env_file: .env
     depends_on:
       - mysql
