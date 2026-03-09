@@ -8,6 +8,7 @@ services:
       - "8080:80"
     volumes:
       - ./plugins:/var/www/html/wp-content/plugins
+      - ./plugins/search-and-replace:/var/www/html/wp-content/plugins/search-replace-for-block-editor
     restart: always
     environment:
       WORDPRESS_DB_HOST: ${DB_HOST}
