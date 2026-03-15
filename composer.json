@@ -18,7 +18,7 @@
     "composer/installers": "^1.6",
     "badasswp/ai-plus-block-editor": "*",
     "badasswp/image-converter-webp": "*",
-    "badasswp/search-and-replace": "*",
+    "badasswp/search-replace-for-block-editor": "*",
     "badasswp/convert-blocks-to-json": "*",
     "badasswp/trash-post-in-block-editor": "*",
     "badasswp/sql-to-cpt": "*",
@@ -55,7 +55,7 @@
     },
     {
       "type": "git",
-      "url": "git@github.com:badasswp/search-and-replace.git"
+      "url": "git@github.com:badasswp/search-replace-for-block-editor.git"
     },
     {
       "type": "git",
